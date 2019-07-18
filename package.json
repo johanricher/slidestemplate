@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "presentation": "reveal-md slides.md",
-    "generate": "reveal-md slides.md --static docs"
+    "generate": "reveal-md slides.md --static public"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/martinmurphy/slidestemplate#readme",
   "devDependencies": {
-    "reveal-md": "^0.4.2"
+    "reveal-md": "3.0.4"
   }
 }
